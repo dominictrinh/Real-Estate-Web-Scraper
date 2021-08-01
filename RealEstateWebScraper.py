@@ -48,7 +48,8 @@ listings = pandas.DataFrame(l)
 listings.to_csv("output_csv")
 pandas.set_option('display.max_rows', len(l))
 
-print(listings)
+#outputs the table to the screen
+listings
 
 
 # In[ ]:
